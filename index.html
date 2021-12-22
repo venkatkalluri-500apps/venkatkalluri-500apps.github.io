@@ -10,6 +10,24 @@
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
   <script>
+    setTimeout(function(){ 
+      (function(b, o, t, u, p, c){
+    d= o.createElement('div');
+    d.id= 'app';
+  	c = o.getElementsByTagName('head')[0];
+  	p = o.createElement('script');
+  	p.async = 1;
+    p.id= 'botup';
+  	p.src = t + u;
+  	p.onload = function(){
+  		b._Botup.init('1743518715037135', '645', 'dev')
+  	};
+    o.lastChild.append(d);
+  	c.appendChild(p);
+  })(window, document, 'https://widgets.500apps.com/dev/botup/', 'botupchat.js');
+  },2000);
+    </script>
+<!--   <script>
       setTimeout(function() {
         (function(b, o, t, u, p, c) {
           d = o.createElement("div");
@@ -35,7 +53,7 @@
           c.appendChild(p);
         })(window, document, "", "botupchat.js");
       }, 2000);
-    </script>
+    </script> -->
   <!-- Google Tag Manager -->
   <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
