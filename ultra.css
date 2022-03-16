@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Open Sans", sans-serif;
   font-display: swap;
-  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
-  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("embedded-opentype");
-  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("embedded-opentype");
+  src: url("https://venkatkalluri-500apps.github.io/OpenSans-Bold.ttf");
+  src: url("https://venkatkalluri-500apps.github.io/OpenSans-Regular.ttf") format("embedded-opentype");
+  src: url("https://venkatkalluri-500apps.github.io/OpenSans-SemiBold.ttf") format("embedded-opentype");
   font-weight: 400;
   unicode-range: U+000-5FF;
   font-style: normal;
