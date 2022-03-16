@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: infinity-opensans;
-  src: url(https://venkatkalluri-500apps.github.io/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
   unicode-range: U+000-5FF;
   font-style: normal;
 }
