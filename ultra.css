@@ -1,5 +1,37 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,500&display=swap"); */
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  font-display: swap;
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("embedded-opentype");
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("embedded-opentype");
+  font-weight: 400;
+  unicode-range: U+000-5FF;
+  font-style: normal;
+}
 
+/* @font-face {
+  font-family: "Cerebri Sans";
+  font-display: swap;
+  src: url("../fonts/cerebrisans/cerebrisans-medium.eot");
+  src: url("../fonts/cerebrisans/cerebrisans-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/cerebrisans/cerebrisans-medium.woff") format("woff"), url("../fonts/cerebrisans/cerebrisans-medium.ttf") format("truetype");
+  font-weight: 500;
+  unicode-range: U+000-5FF;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  font-display: swap;
+  src: url("../fonts/cerebrisans/cerebrisans-semibold.eot");
+  src: url("../fonts/cerebrisans/cerebrisans-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/cerebrisans/cerebrisans-semibold.woff") format("woff"), url("../fonts/cerebrisans/cerebrisans-semibold.ttf") format("truetype");
+  font-weight: 600;
+  unicode-range: U+000-5FF;
+  font-style: normal;
+} */
+
+.botup-ultra {
+  font-family: "Open Sans", sans-serif;
+}
 .botup-ultra,
 .botup-ultra h1,
 .botup-ultra h2,
