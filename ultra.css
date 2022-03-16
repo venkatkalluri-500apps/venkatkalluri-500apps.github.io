@@ -1,10 +1,6 @@
 @font-face {
-  font-family: "Open Sans", sans-serif;
-  font-display: swap;
-  src: url("https://venkatkalluri-500apps.github.io/OpenSans-Bold.ttf");
-  src: url("https://venkatkalluri-500apps.github.io/OpenSans-Regular.ttf") format("embedded-opentype");
-  src: url("https://venkatkalluri-500apps.github.io/OpenSans-SemiBold.ttf") format("embedded-opentype");
-  font-weight: 400;
+  font-family: infinity-opensans;
+  src: url(https://venkatkalluri-500apps.github.io/OpenSans-Regular.ttf);
   unicode-range: U+000-5FF;
   font-style: normal;
 }
@@ -30,7 +26,7 @@
 } */
 
 .botup-ultra {
-  font-family: "Open Sans", sans-serif;
+  font-family: infinity-opensans !important;
 }
 .botup-ultra,
 .botup-ultra h1,
