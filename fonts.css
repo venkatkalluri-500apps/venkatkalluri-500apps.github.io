@@ -46,6 +46,14 @@
   font-weight: 400;
 }
 
+@font-face {
+	  font-family: infinity-roboto-bold;
+	  src: url(https://my.ap1.500apps.com/pcors?url=https://widgets.500apps.com/fonts/Roboto-Bold.ttf);
+	  unicode-range: U+000-5FF;
+	  font-style: normal;
+	  font-weight: 300;
+	}
+
 .botup-roboto {
   font-family: infinity-roboto !important;
 }
