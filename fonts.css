@@ -57,12 +57,35 @@
 .botup-roboto {
   font-family: infinity-roboto !important;
 }
-.botup-helvetica {
-  font-family: Helvetica, sans-serif !important;
+
+.botup-helvetica{
+font-family: Helvetica, sans-serif !important;
 }
-.botup-times-new-roman {
-  font-family: Times New Roman, serif !important;
+
+.botup-tahoma{
+font-family: Tahoma, sans-serif !important
 }
-.botup-trebuchetMS {
-  font-family: Trebuchet MS, sans-serif !important;
+
+.botup-trebuchet{
+font-family: Trebuchet MS, sans-serif !important;
+}
+
+.botup-times-new-roman{
+font-family: Times New Roman, serif !important;
+}
+
+.botup-georgia{
+font-family: Georgia, serif !important;
+}
+
+.botup-garamond{
+font-family: Garamond, serif !important;
+}
+
+.botup-courier-new
+font-family: Courier New, monospace !important;
+}
+
+.botup-brush-script{
+font-family: Brush Script MT, cursive !important;
 }
