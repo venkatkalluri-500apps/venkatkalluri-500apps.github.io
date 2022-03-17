@@ -11,7 +11,7 @@
   src: url(https://venkatkalluri-500apps.github.io/OpenSans-SemiBold.ttf);
   unicode-range: U+000-5FF;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .botup-opensans {
@@ -31,7 +31,7 @@
   src: url(https://venkatkalluri-500apps.github.io/Poppins-SemiBold.ttf);
   unicode-range: U+000-5FF;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .botup-poppins {
@@ -44,14 +44,6 @@
   unicode-range: U+000-5FF;
   font-style: normal;
   font-weight: 400;
-}
-
-@font-face {
-  font-family: infinity-roboto;
-  src: url(https://venkatkalluri-500apps.github.io/Roboto-Bold.ttf);
-  unicode-range: U+000-5FF;
-  font-style: normal;
-  font-weight: 500;
 }
 
 .botup-roboto {
