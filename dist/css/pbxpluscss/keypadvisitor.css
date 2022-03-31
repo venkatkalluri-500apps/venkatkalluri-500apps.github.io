@@ -1,0 +1,197 @@
+.visitor.preview-keypad .width-400 {
+  width: 320px;
+}
+.visitor.preview-keypad .visitor-btns .btn-outline {
+  margin-left: 0px !important;
+  width: 50%;
+  border-radius: 0px;
+  border-top-right-radius: 12px !important;
+  font-size: 13px;
+  margin-top: 0px !important;
+  padding: 8px 0px !important;
+}
+.visitor.preview-keypad .visitor-btns .btn-outline {
+  margin-left: 0px !important;
+  width: 50%;
+  border-radius: 0px;
+  border-top-left-radius: 12px !important;
+  font-size: 13px;
+  margin-top: 0px !important;
+  padding: 8px 0px !important;
+}
+.visitor.preview-keypad .visitor-btns .btn-danger {
+  margin-left: 0px !important;
+  width: 50%;
+  border-radius: 0px;
+  border-top-left-radius: 12px !important;
+}
+.visitor.preview-keypad {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  border-radius: 12px;
+}
+.visitor.preview-keypad .bg-dailer.rounded-20 {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  height: 231px !important;
+  padding-top: 21px !important;
+}
+.visitor.preview-keypad .dailer-pad-number {
+  width: 110px !important;
+  height: 50px !important;
+  border-right: 1px solid #f1f1f1 !important;
+  border-radius: 0px !important;
+  background-color: #ffffff !important;
+  border-color: #f1f1f1 !important;
+  border-bottom: 0px !important;
+  opacity: 0.8;
+  color: #000 !important;
+  padding: 0px !important;
+}
+.visitor.preview-keypad .btn:focus {
+  box-shadow: none !important;
+}
+.visitor.preview-keypad .bg-dailer .keyboard-number.keypad {
+  height: 51px !important;
+  color: #000 !important;
+}
+.visitor.preview-keypad.widget-dark .bg-dailer .keyboard-number.keypad {
+  color: #fff !important;
+}
+.visitor.preview-keypad.widget-dark .bg-dailer .list-group-item,
+.visitor.preview-keypad.widget-dark .bg-dailer .border-right,
+.visitor.preview-keypad.widget-dark .bg-dailer .border-left {
+  border-color: #273d5a !important;
+}
+.visitor.preview-keypad .bg-dailer .list-group-item,
+.visitor.preview-keypad .bg-dailer .border-right,
+.visitor.preview-keypad .bg-dailer .border-left {
+  border-color: #f1f1f1 !important;
+}
+.visitor.preview-keypad .dailer-padding {
+  padding: 0px;
+}
+.visitor.preview-keypad .d-flex.justify-content-between {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.visitor.preview-keypad .phno-placeholder {
+  color: #000 !important;
+  border-radius: 0px;
+  margin: 0px !important;
+  font-size: 16px;
+}
+.visitor.preview-keypad .font-size-sm.text-center {
+  margin-top: 7px;
+  margin-bottom: 7px !important;
+  font-weight: 500;
+  height: 15px;
+  font-size: 11px !important;
+}
+.visitor.preview-keypad .d-flex.justify-content-between:last-child {
+  border-radius: 12px;
+}
+.visitor.preview-keypad .dailer-pad-number:first-child {
+  border-left: 1px transparent !important;
+  border-right: 1px transparent !important;
+}
+.visitor.preview-keypad .dailer-pad-number:last-child {
+  border-left: 1px transparent !important;
+  border-right: 1px transparent !important;
+}
+.visitor.preview-keypad .callnow-keypad .w-100 {
+  height: 21px;
+}
+::placeholder {
+  color: #12263f !important;
+}
+.visitor-callback {
+  border-radius: 0px;
+  box-shadow: 0px 5px 8px 3px rgb(18 38 63 / 3%);
+}
+.visitor.preview-keypad .visitor-btns .btn-outline:focus,
+.btn-success.focus {
+  box-shadow: none;
+}
+.visitor.preview-keypad .visitor-btns .btn-outline:focus,
+.btn-primary.focus {
+  box-shadow: none;
+}
+.visitor.preview-keypad .visitor-btns .btn-danger:focus,
+.btn-danger.focus {
+  box-shadow: none;
+}
+.visitor.preview-keypad .height-288 {
+  height: 230px;
+  box-shadow: 0px 5px 8px 3px rgb(18 38 63 / 3%);
+}
+.visitor.preview-keypad .rounded-top-0 {
+  border-radius: 0;
+}
+.callnow-keypad {
+  height: 230px;
+}
+.visitor.preview-keypad .pbx-widget-footer {
+  background-color: #f1f1f1;
+  font-size: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 5px;
+}
+.visitor.preview-keypad .number.star-num {
+  padding-top: 14px;
+  line-height: 0px !important;
+}
+.visitor.preview-keypad .font-size-13px {
+  font-size: 13px;
+}
+.visitor.preview-keypad .star {
+  font-size: 26px !important;
+  position: relative;
+  top: 6px;
+}
+/* dark theme */
+.visitor.preview-keypad.widget-dark .bg-dailer.rounded-20 {
+  background-color: #12263f !important;
+  color: #fff !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.visitor.preview-keypad.widget-dark .height-288 {
+  background-color: #12263f;
+  color: #fff;
+}
+.visitor.preview-keypad.widget-dark .dailer-pad-number {
+  background-color: #12263f !important;
+  color: #fff !important;
+  border-right: 1px solid #223956 !important;
+  border-color: #223956 !important;
+}
+.visitor.preview-keypad.widget-dark .pbx-widget-footer {
+  background-color: #f1f1f1;
+  font-size: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.timer-alignment {
+  top: 28px !important;
+  left: 20% !important;
+}
+.preview-keypad.visitor.widget-dark .text-white {
+  color: #fff !important;
+}
+.preview-keypad.visitor .text-white {
+  color: #000 !important;
+}
+.visitor.preview-keypad .visitor-btns .call-now {
+    border-top-right-radius: 0px !important;
+}
+.visitor.preview-keypad .visitor-btns .call-back {
+    border-top-left-radius: 0px !important;
+}

@@ -1,0 +1,184 @@
+:root {
+  /* Body propertoes */
+  --frame-input-label-alignment:"",
+  --frame-label-display:""
+  --frame-heading:"";
+  --frame-background-color:"";
+  --frame-background-image:"";
+  --frame-background-size:"";
+  --frame-background-position:"";
+  --frame-background-repeat:"";
+  --frame-input-background-color:"";
+  --body-background-color:"";
+  --frame-width:"";
+  --frame-heading-size:"";
+  --frame-description-size:"";
+  --frame-helptext-size:"";
+  --frame-label-size:"";
+  --frame-description:"";
+  --frame-padding-x: "";
+  --frame-padding-y: "";
+  --frame-input-width:"";
+  --frame-radius:"";
+  --frame-banner-Section:"";
+  --frame-banner-position:"";
+  --banner-image-height:"";
+  --banner-image-width:"";
+  --banner-image-margin-bottom:"";
+  --font-family: "";
+  --row-padding-x:"";
+  --row-padding-y:"";
+  --row-margin-y:"";
+  --section-bg-color:"";
+  --frame-label-spacing:"";
+  --section-bg-color:"";
+  --frame-label-style:""; 
+  --formbuilder-input-border-color: "";
+  --formbuilder-row-margin: "";
+  --formbuilder-label-spacing: "";
+  --formbuilder-input-height: "";
+  --formbuilder-label-font-size: "";
+  --form-focus-border-color:"";
+  --frame-label:"";
+}
+body {
+  background-color: var(--body-background-color) !important;
+}
+.formbuilder-mainbody{
+  background-color: var(--body-background-color) !important;
+  font-family: var(--font-family) !important;
+}
+.form-builder h1,
+.form-builder h2,
+.form-builder h3,
+.form-builder h4,
+.form-builder h5,
+.form-builder h6{
+  color: var(--frame-heading) !important;
+  font-size: var(--frame-heading-size) !important;
+  font-family: var(--font-family) !important;
+  
+}
+.form-builder div[type="div"]{
+  color: var(--frame-description) !important;
+  font-size: var(--frame-description-size) !important;
+  font-family: var(--font-family) !important; 
+}
+small[style="display: block"],
+.form-builder .theme-description{
+   color: var(--frame-helptext) !important;
+    font-size: var(--frame-helptext-size);
+}
+
+.form-builder label{
+  color: var(--frame-label)!important;
+   font-size: var(--frame-label-size) !important;
+}
+.form-builder output,
+.form-builder select:focus,
+.form-builder textarea:focus,
+.form-builder input:focus{
+  border-color: var('--form-focus-border-color') !important;
+}
+.form-builder select,
+.form-builder textarea,
+.rc-anchor-light,
+.form-builder input {
+  background-color: var(--frame-input-background-color) !important;
+  max-width: var(--frame-input-width) !important;
+  border-color: var(--formbuilder-input-border-color) !important;
+}
+.form-builder .vti__dropdown{
+   background: var(--frame-input-background-color) !important;
+   border-top-left-radius: 6px !important;
+   border-bottom-left-radius: 6px !important;
+}
+.form-builder{
+  background-color: var(--frame-background-color) !important;
+  background-image: var(--frame-background-image) !important;
+  background-size: var( --frame-background-size) !important;
+  background-attachment: var(--frame-background-position) !important;
+  background-repeat: var(--frame-background-repeat) !important;
+  max-width: var(--frame-width) !important;
+  margin:auto;
+  padding-top: var(--frame-padding-y)!important; 
+  padding-bottom:var(--frame-padding-y)!important;
+  padding-left: var(--frame-padding-x)!important;
+  padding-right: var(--frame-padding-x)!important;
+  border-radius: var(--form-radius) !important;
+}
+
+.form-builder input[type="file"]{
+  width: 96px !important;
+  height: 29px !important;
+}
+.frame-banner-section{
+  height: var(--banner-image-height) !important;
+  width: var(--banner-image-width) !important;
+  margin-bottom: var(--banner-image-margin-bottom) !important;
+  margin: var(--frame-banner-position) !important;
+}
+.form-builder .row.px-2{
+  padding-left: var(--row-padding-x) !important;
+  padding-right: var(--row-padding-x) !important;
+  padding-top: var(--row-padding-y) !important;
+  padding-bottom: var(--row-padding-y) !important;
+  margin-bottom: var(--row-margin-y) !important;
+  background-color: var(--section-bg-color) !important;
+}
+.theme-description{
+   font-family: var(--font-family) !important;
+}
+.form-builder label{
+  font-family: var(--font-family) !important;
+   font-weight: var(--frame-label-style) !important;
+   margin-bottom: var(--frame-label-spacing) !important;
+  display: var(--frame-label-display) !important;
+}
+small[style="color: red"]{
+  display: var(--frame-label-display) !important; 
+}
+.form-builder .label-alignment{
+  text-align: var(--frame-input-label-alignment);
+}
+/* Runnning Tetx Colors */
+.form-builder a,
+.form-builder ul li ,
+.form-builder th{
+  color: var(--frame-label) !important;
+}
+.form-builder .vue-tel-input:focus-within {
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 3px var(--text-color) !important;
+}
+.form-builder .vti__input {
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+/* Chrome, Safari, Edge, Opera */
+.form-builder input::-webkit-outer-spin-button,
+.form-builder input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* Firefox */
+.form-builder input[type="number"] {
+  -moz-appearance: textfield;
+}
+.form-builder .custom-file-upload::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.form-builder .custom-file-upload::before {
+  content: "Choose File";
+  display: inline-block;
+  border: 1px solid var(--base-font-color);
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  color: var(--base-font-color) !important;
+}
+

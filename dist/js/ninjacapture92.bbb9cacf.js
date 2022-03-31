@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["ninjacapture92"],{"88e4":function(e,n,p){"use strict";p.r(n);var o={props:{elementProps:Object}};n["default"]=o}}]);
+//# sourceMappingURL=ninjacapture92.bbb9cacf.js.map

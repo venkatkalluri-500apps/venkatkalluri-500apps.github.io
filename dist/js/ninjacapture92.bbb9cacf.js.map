@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/views/form/mixins/element-mixin.js"],"names":["elementMixin","props","elementProps","Object"],"mappings":"kHAAA,WAAMA,EAAe,CACnBC,MAAO,CACLC,aAAcC,SAIHH","file":"js/ninjacapture92.bbb9cacf.js","sourcesContent":["const elementMixin = {\n  props: {\n    elementProps: Object,\n  },\n};\n\nexport default elementMixin;\n"],"sourceRoot":""}

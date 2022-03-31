@@ -1,0 +1,139 @@
+.sign-alert {
+  right: 20px;
+  position: fixed;
+  top: 20px;
+  padding: 12px;
+}
+.custom-toast-close {
+  width: 0 !important;
+  position: absolute;
+  visibility: hidden;
+  right: 30px;
+  top: 30px;
+  -webkit-animation: fadeOutAnimation 0.5s ease;
+  animation: fadeOutAnimation 0.5s ease;
+}
+.custom-toast {
+  right: 30px;
+  top: 30px;
+  -webkit-animation: fadeInAnimation 0.5s ease;
+  animation: fadeInAnimation 0.5s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0/10%);
+  padding-bottom: 0.75rem !important;
+  padding-top: 0.75rem !important;
+  position: fixed !important;
+  border-radius: 0.25rem !important;
+  border: 0 !important;
+  z-index: 1039 !important;
+}
+.sign-footer {
+  background: #eaecef;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.sign-comments {
+  height: 55vh;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  overflow: auto;
+}
+.comments-editor .ql-toolbar.ql-snow {
+  border: 1px solid #edf2f9 !important;
+}
+.comments-editor .ql-editor {
+  border: 1px solid #edf2f9 !important;
+}
+.comments-editor .ql-container.ql-snow {
+  border: transparent;
+}
+.comments-editor .ql-editor.ql-blank::before {
+  font-style: normal !important;
+  color: #b1c2d9;
+}
+.save-response-card {
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .sign-fixed-footer {
+    position: fixed !important;
+  }
+  .sign-footer {
+    position: sticky;
+    bottom: 0 !important;
+    margin-left: 0px !important;
+    margin-right: 0 !important;
+  }
+  .ac-esign_nav {
+    top: 0 !important;
+    margin-top: -24px;
+    height: 6.8rem !important;
+    padding-top: 13px;
+    margin-left: -13px;
+    width: 107% !important;
+  }
+  .ac-esign_body {
+    display: flex;
+    justify-content: space-between;
+    max-height: calc(100vh - 16rem) !important;
+  }
+  .sign-comments {
+    height: 48vh;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    overflow: auto;
+  }
+  .custom-toast {
+    right: 5px !important;
+    position: fixed;
+    top: 20px !important;
+    padding: 12px;
+    z-index: 99 !important;
+  }
+  .mobile-ac-esign-body .ac-esign_body {
+    max-height: calc(100vh - 11rem) !important;
+  }
+}
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeOutAnimation {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,172 @@
+/* Lato */
+@font-face {
+    font-family: "Lato";
+    src: url("Lato/Lato-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Lato-Italic";
+    src: url("Lato/Lato-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("Lato/Lato-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Lato-BoldItalic";
+    src: url("Lato/Lato-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+/* Lora */
+@font-face {
+    font-family: "Lora";
+    src: url("Lora/Lora-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Lora-Italic";
+    src: url("Lora/Lora-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Lora-Bold";
+    src: url("Lora/Lora-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Lora-BoldItalic";
+    src: url("Lora/Lora-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Montserrat */
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url("Montserrat/Montserrat-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("Montserrat/Montserrat-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: url("Montserrat/Montserrat-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Nunito */
+@font-face {
+    font-family: "Nunito";
+    src: url("Nunito/Nunito-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Nunito-Italic";
+    src: url("Nunito/Nunito-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url("Nunito/Nunito-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Nunito-BoldItalic";
+    src: url("Nunito/Nunito-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* OpenSans */
+@font-face {
+    font-family: "OpenSans";
+    src: url("OpenSans/OpenSans-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("OpenSans/OpenSans-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("OpenSans/OpenSans-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "OpenSans-BoldItalic";
+    src: url("OpenSans/OpenSans-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Poppins */
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins/Poppins-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url("Poppins/Poppins-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("Poppins/Poppins-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url("Poppins/Poppins-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Roboto */
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("Roboto/Roboto-Italic.ttf") format("ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("Roboto/Roboto-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto-BoldItalic";
+    src: url("Roboto/Roboto-BoldItalic.ttf") format("ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* DancingScript */
+@font-face {
+    font-family: "DancingScript";
+    src: url("DancingScript/DancingScript-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "DancingScript-Bold";
+    src: url("DancingScript/DancingScript-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
