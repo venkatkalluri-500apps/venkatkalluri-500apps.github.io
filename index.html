@@ -373,5 +373,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+  <script>
+    console.log("script calling");
+    if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            (position) => {
+              console.log("position ", position);
+              var loc = {};
+              loc.latitude = position.coords.latitude;
+              loc.longitude = position.coords.longitude;
+              console.log(JSON.stringify(loc));
+            },
+            (err) => {
+              console.log("error ", err);
+            }
+  </script>
 </body>
 </html>
