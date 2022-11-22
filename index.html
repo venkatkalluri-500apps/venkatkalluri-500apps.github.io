@@ -45,9 +45,8 @@
           if (typeof e.data === "object") {
             iframe.style.height = e.data.height;
             iframe.style.visibility = "visible";
-            window.height=e.data.height;
-            console.log("height",window.height);
-            document.getElementById('forms-4784-4363').style.height=window.height+"px";
+            console.log("height",e.data.height);
+            document.getElementById('forms-4784-4363').style.height=e.data.height+"px";
             return;
           }
         }, 10);
