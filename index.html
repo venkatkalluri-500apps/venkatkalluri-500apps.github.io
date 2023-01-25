@@ -13,12 +13,11 @@
   <script>
   window.onload = function () {
 console.log("sampl saple saplepaasasassa");
-    window.google.accounts.id.initialize({
+    google.accounts.id.initialize({
       client_id: '676765530138-9qtjgs7v00pbkg8qhc1roakmc2c7c4rf.apps.googleusercontent.com',
       callback: (data)=>{console.log("sdgsfdhs",data);},
     });
-    google.accounts.id.prompt();
-    window.google.accounts.id.prompt((notification) => {
+    google.accounts.id.prompt((notification) => {
         if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
             console.log("sampl saple saplepaasasassa");
         }
