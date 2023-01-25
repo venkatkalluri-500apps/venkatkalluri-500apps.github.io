@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <script>
   window.onload = function () {
-    google.accounts.id.initialize({
+    window.google.accounts.id.initialize({
       client_id: '676765530138-9qtjgs7v00pbkg8qhc1roakmc2c7c4rf.apps.googleusercontent.com',
       callback: handleCredentialResponse
     });
-    google.accounts.id.prompt((notification) => {
+    window.google.accounts.id.prompt((notification) => {
         if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
             console.log("sampl saple saplepaasasassa");
         }
