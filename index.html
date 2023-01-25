@@ -11,15 +11,10 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script>
-    function handleCredentialResponse(data){
-console.log("sdgsfdhs",data);
-}
   window.onload = function () {
-    
     window.google.accounts.id.initialize({
       client_id: '676765530138-9qtjgs7v00pbkg8qhc1roakmc2c7c4rf.apps.googleusercontent.com',
-      callback: handleCredentialResponse,
-      prompt_parent_id: 'g_id_onload'
+      callback: (data)=>{console.log("sdgsfdhs",data);}),
     });
     google.accounts.id.prompt();
     window.google.accounts.id.prompt((notification) => {
