@@ -16,6 +16,7 @@ console.log("sampl saple saplepaasasassa");
     google.accounts.id.initialize({
       client_id: '676765530138-9qtjgs7v00pbkg8qhc1roakmc2c7c4rf.apps.googleusercontent.com',
       callback: (data)=>{console.log("sdgsfdhs",data);},
+      prompt_parent_id: 'g_id_onload'
     });
     google.accounts.id.prompt((notification) => {
         if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
@@ -55,7 +56,7 @@ console.log("sampl saple saplepaasasassa");
   <div id="g_id_onload"
       data-prompt_parent_id="g_id_onload"
       data-cancel_on_tap_outside="false"
-      style="position: absolute; left: 79%; top: 124px; width: 0; height: 0; z-index: 1001;">
+      style="position: absolute; left: 50%; top: 124px; width: 0; height: 0; z-index: 1001;">
  </div>
 
 
